@@ -1,0 +1,260 @@
+.table6{
+height:90%;
+width:90%;
+margin:auto;
+text-align:center;
+border-spacing:8px 15px;
+//border: white 2px solid;
+border-collapse:collapse;
+}
+.table6 caption {
+caption-side:top;
+font-size:25px;
+}
+.table6 tr:nth-of-type(even){
+background-color:cyan;
+}
+.table6 tr:nth-of-type(odd){
+background-color:white;
+}
+
+
+.table6 tr:nth-of-type(1) {
+background-color:gray;
+}
+
+
+.table6 tr:nth-of-type(14) {
+background-color:gray;
+}
+
+
+.table6 tr:nth-of-type(1){
+border-bottom:solid;
+border-bottom-color:blue;
+border-top:solid;
+border-top-color:blue;
+}
+.table6 tr:nth-of-type(14){
+border-bottom:solid;
+border-bottom-color:blue;
+border-top:solid;
+border-top-color:blue;
+}
+.table6 tr:nth-of-type(2){
+border-bottom:dotted;
+border-bottom-color:blue;
+}
+.table6 tr:nth-of-type(3){
+border-bottom:dotted;
+border-bottom-color:blue;
+}
+.table6 tr:nth-of-type(4){
+border-bottom:dotted;
+border-bottom-color:blue;
+}
+.table6 tr:nth-of-type(5){
+border-bottom:dotted;
+border-bottom-color:blue;
+}
+.table6 tr:nth-of-type(6){
+border-bottom:dotted;
+border-bottom-color:blue;
+}
+.table6 tr:nth-of-type(7){
+border-bottom:dotted;
+border-bottom-color:blue;
+}
+.table6 tr:nth-of-type(8){
+border-bottom:dotted;
+border-bottom-color:blue;
+}
+.table6 tr:nth-of-type(9){
+border-bottom:dotted;
+border-bottom-color:blue;
+}
+.table6 tr:nth-of-type(10){
+border-bottom:dotted;
+border-bottom-color:blue;
+}
+.table6 tr:nth-of-type(11){
+border-bottom:dotted;
+border-bottom-color:blue;
+}
+.table6 tr:nth-of-type(12){
+border-bottom:solid;
+border-bottom-color:blue;
+}
+.table6 tr:nth-of-type(13){
+border-bottom:solid;
+border-bottom-color:blue;
+}
+.table6 tr:nth-of-type(14){
+border-bottom:solid;
+border-bottom-color:blue;
+}
+
+.table6 tr:nth-of-type(2) td:nth-of-type(1){
+background-color:gray;
+border-bottom:solid;
+border-bottom-color:blue;
+}
+.table6 tr:nth-of-type(3) td:nth-of-type(1){
+background-color:gray;
+border-bottom:solid;
+border-bottom-color:blue;
+}
+.table6 tr:nth-of-type(4) td:nth-of-type(1){
+background-color:gray;
+border-bottom:solid;
+border-bottom-color:blue;
+}
+.table6 tr:nth-of-type(5) td:nth-of-type(1){
+background-color:gray;
+border-bottom:solid;
+border-bottom-color:blue;
+}
+.table6 tr:nth-of-type(6) td:nth-of-type(1){
+background-color:gray;
+border-bottom:solid;
+border-bottom-color:blue;
+}
+.table6 tr:nth-of-type(7) td:nth-of-type(1){
+background-color:gray;
+border-bottom:solid;
+border-bottom-color:blue;
+}
+.table6 tr:nth-of-type(8) td:nth-of-type(1){
+background-color:gray;
+border-bottom:solid;
+border-bottom-color:blue;
+}
+.table6 tr:nth-of-type(9) td:nth-of-type(1){
+background-color:gray;
+border-bottom:solid;
+border-bottom-color:blue;
+}
+.table6 tr:nth-of-type(10) td:nth-of-type(1){
+background-color:gray;
+border-bottom:solid;
+border-bottom-color:blue;
+}
+.table6 tr:nth-of-type(11) td:nth-of-type(1){
+background-color:gray;
+border-bottom:solid;
+border-bottom-color:blue;
+}
+.table6 tr:nth-of-type(12) td:nth-of-type(1){
+background-color:gray;
+border-bottom:solid;
+border-bottom-color:blue;
+}
+.table6 tr:nth-of-type(13) td:nth-of-type(1){
+background-color:gray;
+border-bottom:solid;
+border-bottom-color:blue;
+}
+
+
+.table6 tr:nth-of-type(13) td:nth-of-type(2){
+background-color:red;
+border-top:soild;
+border-top-color:blue;
+}
+
+.table6 tr:nth-of-type(13) td:nth-of-type(3){
+border-bottom:dotted;
+border-bottom-color:blue;
+background-color:red;
+}
+
+.table6 tr:nth-of-type(13) td:nth-of-type(4){
+border-bottom:dotted;
+border-bottom-color:blue;
+background-color:red;
+}
+
+.table6 td:nth-of-type(5){
+background-color:yellow;
+}
+
+.table6 tr:nth-of-type(1) td:nth-of-type(5){
+background-color:gray;
+}
+
+
+.table7{
+width:50%;
+margin:auto;
+text-align:center;
+border-spacing:8px 15px;
+border-collapse:collapse;
+}
+
+
+body{
+background-color:pink;
+}
+
+.boxgg{
+height:500px;
+width:500px;
+background-image:url("cloud.jpg");
+background-size:100% 100%;
+}
+
+.boxhh{
+height:100px;
+width:30px;
+background-color:pink;
+}
+
+.boxbb{
+height:10px;
+width:3000px;
+background-color:blue;
+}
+
+.boxee{
+height:500px;
+width:5000px;
+
+margin:auto;
+}
+
+.boxtop{
+height:15px;
+width:75px;
+background-color:pink;
+}
+
+.boxbot{
+height:25px;
+width:120px;
+background-color:pink;
+
+}
+
+.boxbox2{
+height:25px;
+width:120px;
+background-color:pink;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

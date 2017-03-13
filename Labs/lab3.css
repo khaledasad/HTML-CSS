@@ -1,0 +1,102 @@
+body{
+background-color:pink;
+margin-top:5%;
+margin-bottom:10%;
+margin-left:10%;
+margin-right:10%;
+border:blue 5px dotted;
+padding:5px;
+}
+.div1{
+border:red 5px solid;
+padding:5px;
+}
+.h11{
+background-color:maroon;
+border: 5px red inset;
+//border-top-right-radius:10px;
+border-radius:10px;
+text-align:center;
+box-shadow:5px 5px 5px black;
+width:80%;
+height:50px;
+margin-left:10%;
+background-size: 100% 100%;
+border-radius:50%;
+}
+.h22{
+font-size:15px;
+text-align:center;
+
+background-size: 100% 100%;
+border-radius:50%;
+}
+.div2{
+border:red 5px solid;
+padding:5px;
+height:150px;
+}
+.pic1{
+width:100px;
+height:100px;
+border:solid cyan 2px;
+border-top-left-radius:30px;
+border-bottom-right-radius:30px;
+background-image:url("Penguins.jpg");
+background-size:100% 100%;
+margin-left:20%;
+float:left;
+}
+.pic2{
+width:100px;
+height:100px;
+border:solid cyan 2px;
+background-image:url("Penguins.jpg");
+background-size:100% 100%;
+border-radius:50%;
+float:left;
+}
+.pic3{
+width:100px;
+height:100px;
+border:solid cyan 2px;
+background-image:url("Penguins.jpg");
+background-size:100% 100%;
+float:left;
+}
+.pic4{
+width:200px;
+height:100px;
+border:solid cyan 2px;
+background-image:url("Penguins.jpg");
+background-size:100% 100%;
+border-radius:50%;
+float:left;
+}
+.div3{
+width:75%;
+height:250px;
+border:solid red 5px;
+background-image:url("Penguins.jpg");
+background-size:100% 100%;
+margin-left: 10%;
+text-align:center;
+}
+.trans{
+width:50%;
+height:25%;
+margin-top:5%;
+margin-left:20%;
+border:dashed 2px;
+opacity:0.5;
+background-color:pink;
+background-size:100% 100%;
+text-align:center;
+}
+.div4{
+width:750px;
+height:150px;
+background-color:blue;
+background: -moz-linear-gradient(45deg, red, yellow, green, blue, cyan);
+margin-left:20%;
+}

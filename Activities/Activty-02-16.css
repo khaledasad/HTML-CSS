@@ -1,0 +1,154 @@
+.h11{
+background-color:blue;
+border: 5px red inset;
+//border-top-right-radius:30px;
+border-radius:30px;
+}
+
+.ggc{
+width:70px;
+height:30px;
+border:solid 1px green;
+border-top-left-radius:30px;
+border-bottom-right-radius:30px;
+text-align:center;
+background-color:silver;
+opacity:.5%;
+box-shadow:10px 10px 10px green;
+}
+
+.circle{
+width:200px;
+height:200px;
+border:dotted blue 2px;
+background-color:green;
+border-radius:50%;
+}
+
+.oval{
+width:400px;
+height:200px;
+border:dotted blue 2px;
+background-color:green;
+background-image:url("Penguins.jpg");
+border-radius:50%;
+background-size:100% 100%;
+
+}
+
+.trapezoid{
+width:200px;
+height:200px;
+border-left:solid 200px transparent;
+border-right:solid 200px transparent;
+border-bottom:solid 200px blue;
+border-top:solid 200px transparent;
+}
+
+.triangle{
+width:0px;
+height:0px;
+border-left:solid 200px transparent;
+border-right:solid 200px blue;
+border-bottom:solid 200px transparent;
+border-top:solid 200px transparent;
+}
+
+.righttriangle{
+width:0px;
+height:0px;
+border-left:solid 200px transparent;
+border-right:solid 200px blue;
+border-bottom:solid 200px blue;
+border-top:solid 200px transparent;
+}
+
+.ring{
+width:200px;
+height:200px;
+border-left:solid 200px blue;
+border-right:solid 200px blue;
+border-bottom:solid 200px blue;
+border-top:solid 200px blue;
+border-radius:50%;
+
+}
+.gradiant1{
+width:200px;
+height:200px;
+background-color:blue;
+background:-moz-linear-gradient(red,yellow);
+
+}
+
+.gradiant2{
+width:600px;
+height:200px;
+background-color:blue;
+background:-moz-linear-gradient(left,red,yellow);
+}
+
+.gradiant3{
+width:600px;
+height:600px;
+background-color:blue;
+background:-moz-linear-gradient(45deg,red,yellow);
+}
+
+.gradiant4{
+width:600px;
+height:600px;
+background-color:blue;
+background:-moz-linear-gradient(45deg,red,yellow,green,gray,magenta,cyan);
+}
+
+
+.gradiant5{
+width:600px;
+height:600px;
+background-color:blue;
+background:-moz-repeating-linear-gradient(red,yellow 10%,green 20%);
+}
+.gradiant6{
+width:600px;
+height:600px;
+background-color:blue;
+background:-moz-repeating-linear-gradient( left, red,yellow 10%,green 20%);
+}
+
+.gradiant7{
+width:600px;
+height:600px;
+background-color:blue;
+background:-moz-radial-gradient(red,yellow,green);
+}
+
+
+.gradiant8{
+width:600px;
+height:600px;
+background-color:blue;
+background:-moz-repeating-radial-gradient(red,yellow 10%,green 20%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

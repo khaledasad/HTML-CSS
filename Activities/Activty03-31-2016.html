@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>
+Activity 03 31
+</title>
+<style>
+.highlight:hover{background-color:blue;
+}
+</style>
+<script> 
+function greeting(){
+	var name=prompt("Type your name please:");
+	var d = new Date(); 
+	var h = d.getHours();
+	if(h<12) {
+		document.getElementById("greeting").innerHTML="Good Morning! " + name;
+	}
+	else if(h<18){
+		document.getElementById("greeting").innerHTML="Good Afternoon! " + name;
+	}
+	else if(h<24){
+		document.getElementById("greeting").innerHTML="Good Evening! " + name;
+	}
+} 
+function changeColor(){
+	document.getElementById("greeting").style.color="green";
+	document.getElementById("greeting").style.backgroundColor="blue";
+
+}
+function menu1over(){
+	document.getElementById("menu1").style.display="block";
+}
+function menu1out(){
+	document.getElementById("menu1").style.display="none";
+}
+
+function menu2over(){
+	document.getElementById("menu2").style.display="block";
+}
+function menu2out(){
+	document.getElementById("menu2").style.display="none";
+}
+function changeBG(choice){
+	document.getElementById("mybody").style.backgroundColor=choice;
+}
+function changeLight(){
+document.getElementById("mylight").width *= 1.5;
+	if(document.getElementById("mylight").src == "http://www.w3schools.com/js/pic_bulbon.gif")
+		document.getElementById("mylight").src="http://www.w3schools.com/js/pic_bulboff.gif"
+	else
+		document.getElementById("mylight").src="http://www.w3schools.com/js/pic_bulbon.gif"
+	document.getElementById("mylight").width *= 1.5;
+	document.getElementById("mylight").height *= 1.5;
+}
+function Smaller(){
+	document.getElementById("mylight").width *= .125;
+	document.getElementById("mylight").height *= .125;
+}
+
+
+</script>
+</head>
+
+<body onload="greeting()" id=mybody>
+<p id=greeting>Hello World</p>
+<button type=button onclick="changeColor()">Change color</button>
+
+<hr/>
+<div style="width:100%;margin:auto;height:200px;
+background-image:url('Penguins.jpg');">
+	<div onmouseover="menu1over()" onmouseout="menu1out()" style="float:left;margin:23px;">
+		<span style="background-color:gray;">Favorite Color</span>
+		<div id=menu1  style="display:none;background-color:pink;border:solid blue 3px;">
+			<p class="highlight" onclick="changeBG('blue')">Blue</p>
+			<p class="highlight" onclick="changeBG('black')">Black</p>
+			<p class="highlight" onclick="changeBG('green')">Green</p>
+			<p class="highlight" onclick="changeBG('yellow')">Yellow</p>
+			<p class="highlight" onclick="changeBG('pink')">Pink</p>
+		</div>
+	</div>
+	<div onmouseover="menu2over()" onmouseout="menu2out()" style="float:left;margin:23px;">
+		<span style="background-color:gray;">Favorite Links</span>
+		<div id=menu2 style="display:none;background-color:pink;border:solid blue 3px;">
+			<p class="highlight"><a href="http://www.google.com" target=_blank>Google</a></p>
+			<p class="highlight"><a href="http://www.ggc.edu" target=_blank>GGC</a></p>
+			<p class="highlight"><a href="http://www.nfl.com" target=_blank>NFL</a></p>
+			<p class="highlight"><a href="http://www.lolesports.com" target=_blank>LOL</a></p>
+			<p class="highlight"><a href="http://www.hbo.com" target=_blank>HBO</a></p>
+		</div> 
+	</div>
+
+</div>
+
+<hr/>
+<img id=mylight onclick="changeLight()" ondblclick="Smaller()" src="http://www.w3schools.com/js/pic_bulboff.gif" width="100" height="180">
+<p> Click the above bulb to turn it on/off the light</p>
+
+
+
+
+
+</body>
+
+</html>

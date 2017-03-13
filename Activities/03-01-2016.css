@@ -1,0 +1,136 @@
+.menu{
+width:200px;
+border: 2px solid black;
+margin:20px;
+padding:5px;
+float:left;
+text-align:center;
+}
+
+.menu div{
+display:none;
+}
+
+.menu:hover div{
+display:block;
+position:absolute;
+top:100px;
+background-color:purple;
+width:180px;
+border: 2px dashed black;
+}
+
+.menu:hover{
+background-color:gold
+}
+
+.menu p:hover{
+background-color:hotpink;
+}
+
+.menu p:active{
+background-color:gold;
+}
+
+.myclear{
+clear:both;
+}
+
+.one{
+width:100px;
+height:100px;
+background-color:pink;
+border:2px solid blue;
+transition:2s;
+}
+
+.one:hover{
+transform:rotate(360deg);
+//transform:translate(200px,300px);
+background-color:red;
+width:300px;
+//position:relative;
+//top:300px;
+//left:400px;
+}
+
+
+
+.two{
+width:100px;
+height:100px;
+background-color:green;
+border:2px solid blue;
+transition:2s;
+
+}
+.two:hover{
+transform:rotatex(320deg);
+background-color:red;
+}
+
+
+.three{
+position:relative;
+width:100px;
+height:100px;
+background-color:red;
+animation:mymove1 2s infinite;
+border:2px solid blue;
+}
+
+@keyframes mymove1 {
+0% {top:0px; left:0px;}
+25% {top:0px; left:100px;}
+50% {top:100px; left:100px;}
+75% {top:100px; left:0px;}
+100% {top:0px; left:0px;}
+}
+
+.four{
+border-radius: 50%;
+width: 100px;
+height: 100px; 
+background-color:yellow;
+animation:mymove2 2s infinite;
+position:relative;
+border-left:2px solid blue;
+border-right:2px solid pink;
+border-top:2px solid green;
+border-bottom:2px solid red;
+}
+
+
+@keyframes mymove2 {
+0% {top:0px; left:0px;}
+50% {top:0px; left:94%;}
+100% {top:0px; left:0px;}
+from { transform: rotate(0deg); }
+to { transform: rotate(360deg); }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,196 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>
+Activity 03-15-2016
+</title>
+<link rel="stylesheet"
+href="Activty03-15-2016.css">
+</head>
+<body>
+
+Learn how to create tables
+<hr/>
+<table border=1>
+<caption>Friends' Info</caption>
+
+		<tr>
+			<th>Name</th>
+			<th>Birthday</th>
+			<th>Phone</th>
+		</tr>
+		<tr>
+			<td>Jack</td>
+			<td>5/13</td>
+			<td>123456789</td>
+		</tr>
+		<tr>
+			<td>Sparky</td>
+			<td>11/24</td>
+			<td>6789545667</td>
+		</tr>
+</table>
+
+<hr/>
+
+<table border=1>
+<caption>Friends' Info</caption>
+
+		<tr>
+			<th>Name</th>
+			<th colspan=3>Birthday</th>
+			<th>Phone</th>
+		</tr>
+		<tr>
+			<td>Jack</td>
+			<td>5</td><td>13</td><td>2000</td>
+			<td>123456789</td>
+		</tr>
+		<tr>
+			<td>Sparky</td>
+			<td>11</td><td>24</td><td>1996</td>
+			<td>6789545667</td>
+		</tr>
+		<tr>
+			<td colspan=4>Total Friends</td>
+			<td>2</td>
+		</tr>
+</table>
+		<hr/>
+		<table border=1>
+<caption>Friends' Info</caption>
+
+		<tr>
+			<th></th>
+			<th>Name</th>
+			<th>Birthday</th>
+			<th>Phone</th>
+			<th rowspan=3>Something</th>
+		</tr>
+		<tr> 
+			<td rowspan=2>Friends</td>
+			<td>Jack</td>
+			<td>5/13</td>
+			<td>123456789</td>
+		</tr>
+		<tr>
+			<td>Sparky</td>
+			<td>11/24</td>
+			<td>6789545667</td>
+		</tr>
+		
+		</table>
+		<hr/>
+<table border=1 style=text-align:center;>
+<caption>Savings</caption>
+
+		<tr>
+			<th>Items</th>
+			<th colspan=2>Date</th>
+			<th>Savings</th>
+			<th>Total Savings</th>
+		</tr>
+		<tr>
+			<td>TV</td>
+			<td>Nov</td>	<td>27</td>
+			<td>$100</td>
+			<td rowspan=3>$240</td>
+		</tr>
+		<tr>
+			<td>PC</td>
+			<td>Jan</td><td>11</td>
+			<td>$100</td>
+		</tr>
+		<tr>
+			<td>iPhone</td>
+			<td>Feb</td><td>21</td>
+			<td>$90</td>
+		</tr>
+		<tr>
+			<td colspan=5>Big Spends in 2013</td>			
+		</tr>
+		
+		</table>
+<hr/>
+
+<table border=5 style="text-align:center; background-image:url(Penguins.jpg); background-size:100% 100%;" >
+<caption>Friends' Info</caption>
+
+        <tr>
+            <td colspan=2>AA</td>
+            <td rowspan=5>GG</td>
+            <td colspan=2>HH</td>
+        </tr>
+        <tr>
+            <td>BB</td>
+            <td>CC</td>
+            <td>II</td>
+            <td>JJ</td>
+        </tr>
+        <tr>
+            <td colspan=2>DD</td>
+            <td COLSPAN=2>ZZ</td>
+        </tr>
+        <tr>
+            <td rowspan=2>EE</td>
+            <td>FF</td>
+            <td>KK</TD>
+            <td rowspan=2>LL</TD>
+        </tr>
+    
+		<tr>
+            <td>MM</td>
+            <td>NN</td>
+		</tr>
+    
+		<tr>
+        <td COLSPAN=6>HUGE SPACE</td>
+		</tr>
+        
+</table>
+
+<hr/>
+<table border=5 style=text-align:center;>
+<caption>CUSTOM</caption>
+
+        <tr>
+            <td rowspan=3 class=boxgg>GG</td>
+            <td colspan=5 class=boxhh>HH</td>
+        </tr>
+        <tr>
+            <td colspan=2 class=boxee>EE</td>
+            <td class=boxee>FF</td>
+            <td class=boxee>KK</TD>
+           
+        </tr>
+
+		<tr>
+        <td COLSPAN=5 class=boxtop>TopFooter</td>
+		</tr>
+        
+		<tr>
+        <td COLSPAN=6 class=boxbot>BottomFooter</td>
+		</tr>
+		
+		</table>
+		
+		
+		
+	
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+
+
+		
+</table>
+</body>
+</html>

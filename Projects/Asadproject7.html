@@ -1,0 +1,138 @@
+<!DOCTYPE HTML>
+<HTML>
+<head>
+<link rel="stylesheet" href="project4.css">
+<title>
+Project 4
+</title>
+<style>
+.card:hover{
+background-color:blue;
+}
+</style>
+<script>
+	function hoverOver(){
+		document.getElementById("hovermenu").style.display="block";
+	}
+	function mouseOut(){
+		document.getElementById("hovermenu").style.display="none";
+	}
+	function changeBGC(choice){
+		document.getElementById("border").style.borderColor=choice;
+		document.getElementById("border").style.color=choice;
+	}
+	function changeBGC2(){
+		var color = prompt("Enter your color choice.")
+		document.getElementById("border").style.borderColor=color;
+		document.getElementById("border").style.color=color;
+	}
+
+
+	function hoverOver2(){
+		document.getElementById("menu2").style.display="block";
+	}
+	function mouseOut2(){
+		document.getElementById("menu2").style.display="none";
+	}
+	function changePic(){
+		document.getElementById("border").style.backgroundImage="url('bear.jpg')";
+	}
+	function changePic2(){
+		document.getElementById("border").style.backgroundImage="url('panda.jpg')";
+	}
+	function changePic3(){
+		document.getElementById("border").style.backgroundImage="url('monkey.jpg')";
+	}
+
+	function hoverOver3(){
+		document.getElementById("menu3").style.display="block";
+	}
+	function mouseOut3(){
+		document.getElementById("menu3").style.display="none";
+	}
+	function changeText(){
+		document.getElementById("text").innerHTML=("Good bye!")
+	}
+	function changeText2(){
+		document.getElementById("text").innerHTML=("I love you!")
+	}
+	function changeText3(){
+		document.getElementById("text").innerHTML=("I miss you!")
+	}
+	function changeText4(){
+		var input = prompt("Enter a message")
+		document.getElementById("text").innerHTML=input;
+	}
+
+	function hoverOver4(){
+		document.getElementById("menu4").style.display="block";
+	}
+	function mouseOut4(){
+		document.getElementById("menu4").style.display="none";
+	}
+	function menuMsg(){
+		alert("Use the pull down menus to customize a Card.");
+	}
+	function menuMsg2(){
+		alert("Clarence Knox is a student at GGC majoring in ITEC!");
+	}
+	function menuMsg3(){
+		alert("Version 1.0,");
+	}
+
+</script>
+
+</head>
+<body>
+<div class="header">
+	<div onmouseover="hoverOver()" onmouseout="mouseOut()" style="margin:10px; float:left; margin-left:25%;">
+	<span style="background-color:gray;"> E-card Color </span>
+		<div id=hovermenu style="display:none; background-color:cyan; border:solid blue 1px;">
+			<p class="card" onclick="changeBGC('pink')">Pink</p>
+			<p class="card" onclick="changeBGC('orange')">Orange</p>
+			<p class="card" onclick="changeBGC('cyan')">Cyan</p>
+			<p class="card" onclick="changeBGC('purple')">Purple</p>
+			<p class="card" onclick="changeBGC2()">Other...</p>
+		</div>
+	</div>
+	<div onmouseover="hoverOver2()" onmouseout="mouseOut2()" style="margin:10px; float:left;">
+	<span style="background-color:gray;"> E-card Picture </span>
+		<div id=menu2 style="display:none; background-color:cyan; border:solid blue 1px;">
+			<p class="card" onclick="changePic()">Bear</p>
+			<p class="card" onclick="changePic2()">Panda</p>
+			<p class="card" onclick="changePic3()">Monkey</p>
+		</div>
+	</div>
+
+	<div onmouseover="hoverOver3()" onmouseout="mouseOut3()" style="margin:10px; float:left;">
+	<span style="background-color:gray;"> E-card Message </span>
+		<div id=menu3 style="display:none; background-color:cyan; border:solid blue 1px;">
+			<p class="card" onclick="changeText()">Good bye!</p>
+			<p class="card" onclick="changeText2()">I love you!</p>
+			<p class="card" onclick="changeText3()">I miss you!</p>
+			<p class="card" onclick="changeText4()">Other... </p>
+		</div>
+	</div>
+
+	<div onmouseover="hoverOver4()" onmouseout="mouseOut4()" style="margin:10px; float:left;">
+	<span style="background-color:gray;"> About my E-card </span>
+		<div id=menu4 style="display:none; background-color:cyan; border:solid blue 1px;">
+			<p class="card" onclick="menuMsg()">How to use</p>
+			<p class="card" onclick="menuMsg2()">About the author</p>
+			<p class="card" onclick="menuMsg3()">Version Info</p>
+		</div>
+	</div>
+</div>
+<br>
+<hr/>
+
+<h3><center>Your E-card design is shown as follows:</h3></center>
+<br/>
+
+<div id=border><p id=text>Happy New Year</p></div>
+<hr/>
+Email:<input type=email name="email" placeholder="abc@ggc.edu"><input type=submit value="Email your E-card">
+
+
+</body>
+</HTML>

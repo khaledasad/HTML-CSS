@@ -1,0 +1,261 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Project 4</title>
+</head>
+<style>
+.inside
+{
+width:80%;
+height:80%;
+margin:10%;
+position:relative;
+}
+.highlight:hover
+{
+background-color:lightblue;
+}
+#mybody
+{
+margin:auto;
+width:80%;
+height:80%;
+}
+.nothing
+{
+clear:both;
+}
+#mypic
+{
+margin:auto;
+border-radius:10px;
+}
+#message1
+{
+color:pink;
+position:absolute;
+margin:auto;
+font-size:200%;
+margin-left:20%;
+}
+</style>
+
+<script>
+
+function menu1over()
+{
+document.getElementById("menu1").style.display="block";
+}
+
+function menu1out()
+{
+document.getElementById("menu1").style.display="none";
+}
+
+function menu2over()
+{
+document.getElementById("menu2").style.display="block";
+}
+
+function menu2out()
+{
+document.getElementById("menu2").style.display="none";
+}
+
+function menu3over()
+{
+document.getElementById("menu3").style.display="block";
+}
+
+function menu3out()
+{
+document.getElementById("menu3").style.display="none";
+}
+function menu4over()
+{
+document.getElementById("menu4").style.display="block";
+}
+
+function menu4out()
+{
+document.getElementById("menu4").style.display="none";
+}
+function menu5over()
+{
+document.getElementById("menu5").style.display="block";
+}
+
+function menu5out()
+{
+document.getElementById("menu5").style.display="none";
+}
+
+
+
+function changeBG(choice)
+{
+document.getElementById("mybody").style.backgroundColor=choice;
+}
+function change(choice)
+{
+document.getElementById("mybody").style.backgroundColor=choice;
+}
+
+function change(color)
+{
+document.getElementById("messageCG", "mybody").style.color=color;
+}
+function change(color)
+{
+document.getElementById("messageCG", "mybody").style.color=color;
+}
+
+
+
+function changePicture(choice)
+{
+if(document.getElementById("mypic").src==choice)
+document.getElementById("mypic").src=choice;
+else
+document.getElementById("mypic").src=choice;
+}
+
+
+function message(choice)
+{
+	
+	
+	if(document.getElementById("messageCG").innerHTML==choice)
+document.getElementById("messageCG").innerHTML=choice;
+else
+document.getElementById("messageCG").innerHTML=choice;
+	
+}
+
+function custome(m)
+{
+var m =prompt("Write your message")
+if(document.getElementById("messageCG").innerHTML==m)
+document.getElementById("messageCG").innerHTML=m;
+else
+document.getElementById("messageCG").innerHTML=m;
+}
+
+
+</script>
+
+<body>
+
+<div style="width:100%; margin:auto; height:200px;
+background-image:url('Penguins.jpg')"> 
+	<div onmouseover="menu1over()" onmouseout="menu1out()" style="float:left; margin:10px;">
+		<span style="background-color:gray;">E-Card Color</span>
+		
+		<div id="menu1" style="display:none; background-color:pink; border:solid blue 3px;">
+		<p class="highlight" onclick="changeBG('blue')">Blue</p>
+		<p class="highlight" onclick="changeBG('Green')">Green</p>
+		<p class="highlight" onclick="changeBG('Yellow')">Yellow</p>
+		<p class="highlight" onclick="changeBG('Pink')">Pink</p>
+		<p class="highlight" onclick="changeBG('Red')">Red</p>
+		<p class="highlight" onclick="changeBG('Brown')">Brown</p>
+		</div>
+	</div>
+	
+	
+	<div onmouseover="menu2over()" onmouseout="menu2out()" style="float:left; margin:10px;">
+		<span style="background-color:gray; margin:10px;">E-card Picture</span>
+		<div id="menu2" style="display:none; background-color:pink; border:solid blue 3px;">
+		<p class="highlight" onclick="changePicture('kitten.jpg')">Kitten</p>
+		<p class="highlight" onclick="changePicture('puppy.jpg')">Puppy</p>
+		<p class="highlight" onclick="changePicture('lily.jpg')">Lily</p>
+		<p class="highlight" onclick="changePicture('Penguins.jpg')">Penguins</p>
+		</div>
+		</div>
+		
+		<div onmouseover="menu3over()" onmouseout="menu3out()" style="float:left; margin:10px;">
+		<span style="background-color:gray; margin:10px;">E-card Message</span>
+		<div id="menu3" style="display:none; background-color:pink; border:solid blue 3px;">
+		<p class="highlight" onclick="message('GoodBye')">GoodBye</p>
+		<p class="highlight" onclick="message('I Love You')">I Love You</p>
+		<p class="highlight" onclick="message('I Miss You')">I Miss You</p>
+		<p class="highlight" onclick="custome()">Other...</p>
+
+		</div>
+		</div>
+		
+	
+	<div onmouseover="menu5over()" onmouseout="menu5out()" style="float:left; margin:10px;">
+		<span style="background-color:gray;">E-Card Message Color</span>
+		
+		<div id="menu5" style="display:none; background-color:pink; border:solid blue 3px;">
+		<p class="highlight" onclick="change('blue')">Blue</p>
+		<p class="highlight" onclick="change('Green')">Green</p>
+		<p class="highlight" onclick="change('Yellow')">Yellow</p>
+		<p class="highlight" onclick="change('Pink')">Pink</p>
+		<p class="highlight" onclick="change('Red')">Red</p>
+		<p class="highlight" onclick="change('Brown')">Brown</p>
+		</div>
+	</div>
+	<div onmouseover="menu4over()" onmouseout="menu4out()" style="float:left; margin:10px;">
+		<span style="background-color:gray; margin:10px;">About my E-card</span>
+		<div id="menu4" style="display:none; background-color:pink; border:solid blue 3px;">
+		<p class="highlight" ><a href="http://www.google.com" target=_blank>How to Use</a></p>
+		<p class="highlight"><a href="http://www.ggc.edu" target=_blank>About the Author</a></p>
+		<p class="highlight"><a href="http://www.facebook.com" target=_blank>Version Info</a></p>
+		
+
+		</div>
+	</div>
+	</div>
+
+
+<div class="nothing"></div>
+<hr/>
+<h3 style="text-align:center;">Your E-card design is shown as follows:</h3>
+<div id="mybody" style=" background-color:pink; border:solid blue 3px;">
+<div class="inside"  ;>
+<div id="message1"><h1 id="messageCG">I Miss You</h1></div>
+<img id="mypic"  src="Penguins.jpg" height="100%" width="100%"/>
+
+
+
+
+
+
+
+</div>
+
+
+</div>
+<hr/>
+Email: <input type="email" name="email" placeholder="sample@domain.com"/>
+<input type=submit value="Email your E-Card"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

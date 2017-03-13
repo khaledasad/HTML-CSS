@@ -1,0 +1,30 @@
+body { background-color: #ccffcc;
+       color: #0066ff;
+       font-family: Verdana, Arial, sans-serif;     
+     }
+h1 { background-color: #ffcccc;   
+     color: black;
+     line-height: 200%;   
+   }
+h2 { background-color: #ffcccc;
+     color: brown;
+     line-height: 175%;
+   }
+
+a:link {  color: #003366;}
+
+li { color: #0066cc;
+     font-style: oblique;   
+   }
+
+b  {  font-size: 14pt;
+      font-family: times, serif;
+      font-weight:  bold;
+   }
+
+#footer { background-color: #ffcccc;
+          font-size: .60em;
+          font-style: italic;   
+          text-align: center;
+          color: #0066ff;
+        }

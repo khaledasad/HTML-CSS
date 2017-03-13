@@ -1,0 +1,67 @@
+body { background-color: #ccffcc;
+       color: #0066ff;
+       font-family: Verdana, Arial, sans-serif;   
+		with
+     }
+h1{ background-color:#ccffcc ;   
+     color: black;
+    line-height: 200%; 
+    border-style:inset;
+    border-color:green;
+    border-width:5px;
+    text-align: center;
+    
+   }
+   
+   
+.itec2 li{
+display:inline;
+}
+ .itec2 li a:link{
+color: yellow;
+     font-style: oblique;  
+ }
+.text{
+	color:yellow;
+	font-style: oblique;
+}
+.text2{
+	color:black;
+	font-style: oblique;
+}
+
+.clear{
+	   clear:both;
+   
+   }
+   
+  
+h2 { background-color: #ffcccc;
+     color: brown;
+     line-height: 175%;
+   }
+
+.a:link {  color: #003366;
+
+}
+
+.li { color: #0066cc;
+     font-style: oblique;
+display:inline;   }
+
+
+.email{
+	color:orange;
+}
+.email a:hover{
+	color:orange;
+}
+.email a:active{
+	color:yellow;
+}
+#footer { background-color: #ffcccc;
+          font-size: .60em;
+          font-style: italic;   
+          text-align: center;
+          color: #0066ff;
+        }
